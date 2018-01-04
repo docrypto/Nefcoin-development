@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Nef
+Comment=Nef P2P Cryptocurrency
+Comment[fr]=Nef, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Nef, eşten eşe kriptografik sanal para birimi
+Exec=nef-qt %u
+Terminal=false
+Type=Application
+Icon=nef128
+MimeType=x-scheme-handler/nef;
+Categories=Office;Finance;

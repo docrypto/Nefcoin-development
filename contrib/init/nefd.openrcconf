@@ -1,0 +1,26 @@
+# /etc/conf.d/nefd: config file for /etc/init.d/nefd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/nef/nef.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/nefd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/nefd.pid"
+
+# Where to write nefd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/nefd"
+
+# User and group to own nefd process
+#BITCOIND_USER="nef"
+#BITCOIND_GROUP="nef"
+
+# Path to nefd executable
+#BITCOIND_BIN="/usr/bin/nefd"
+
+# Nice value to run nefd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
