@@ -32,6 +32,6 @@ More information at [nef.org](http://www.nefcoin.org)
 <tr><td>2-151200</td><td>1 NEF</td><td rowspan=2>Open Mining</td><td rowspan=2> Approx 180 Days</td></tr>
 <tr><td>151201-259200</td><td>1 NEF</td></tr>
 <tr><th colspan=4>PoS Phase</th></tr>
-<tr><th>Block Height</th><th colspan=3>Reward Amount</th></tr>
-<tr><td>259201-Infinite</td><td colspan=3>Variable based on SeeSaw Reward Mechanism</td></tr>
+<tr><th>Block Height</th><th colspan=3>Reward Amount 1 NEF</th></tr>
+<tr><td>259201-Infinite</td><td colspan=3> Pos Reward Mechanism</td></tr>
 </table>
