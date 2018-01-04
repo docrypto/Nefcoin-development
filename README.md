@@ -14,7 +14,7 @@ More information at [nef.org](http://www.nefcoin.org)
 
 ### Coin Specs
 <table>
-<tr><td>Algo</td><td>Quark</td></tr>
+<tr><td>Algo</td><td>Scrypt</td></tr>
 <tr><td>Block Time</td><td>60 Seconds</td></tr>
 <tr><td>Difficulty Retargeting</td><td>Every Block</td></tr>
 <tr><td>Max Coin Supply (PoW Phase)</td><td>110,199,500 NEF</td></tr>
