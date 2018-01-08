@@ -1,13 +1,13 @@
 NEF Core version 2.2.1 is now available from:
 
-  <https://github.com/nef-project/nef/releases>
+  <https://github.com/Nefcoindeveloper/Nefcoin-development/releases>
 
 This is a new minor version release, including various bug fixes and
 performance improvements, as well as updated translations.
 
 Please report bugs using the issue tracker at github:
 
-  <https://github.com/nef-project/nef/issues>
+  <https://github.com/Nefcoindeveloper/Nefcoin-development/issues>
 
 Compatibility
 ==============

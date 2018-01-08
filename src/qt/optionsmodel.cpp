@@ -75,11 +75,11 @@ void OptionsModel::Init()
     if (!settings.contains("nObfuscationRounds"))
         settings.setValue("nObfuscationRounds", 2);
 
-    if (!settings.contains("nAnonymizeNefAmount"))
-        settings.setValue("nAnonymizeNefAmount", 1000);
+    if (!settings.contains("nAnonymizeNEFAmount"))
+        settings.setValue("nAnonymizeNEFAmount", 1000);
 
     nObfuscationRounds = settings.value("nObfuscationRounds").toLongLong();
-    nAnonymizeNefAmount = settings.value("nAnonymizeNefAmount").toLongLong();
+    nAnonymizeNEFAmount = settings.value("nAnonymizeNEFAmount").toLongLong();
 
     if (!settings.contains("fShowMasternodesTab"))
        settings.setValue("fShowMasternodesTab", masternodeConfig.getCount());
@@ -146,8 +146,8 @@ void OptionsModel::Init()
 
     if (settings.contains("nObfuscationRounds"))
         SoftSetArg("-obfuscationrounds", settings.value("nObfuscationRounds").toString().toStdString());
-    if (settings.contains("nAnonymizeNefAmount"))
-        SoftSetArg("-anonymizenefamount", settings.value("nAnonymizeNefAmount").toString().toStdString());
+    if (settings.contains("nAnonymizeNEFAmount"))
+        SoftSetArg("-anonymizenefamount", settings.value("nAnonymizeNEFAmount").toString().toStdString());
 
     language = settings.value("language").toString();
 }
@@ -227,8 +227,8 @@ QVariant OptionsModel::data(const QModelIndex& index, int role) const
             return settings.value("nThreadsScriptVerif");
         case ObfuscationRounds:
             return QVariant(nObfuscationRounds);
-        case AnonymizeNefAmount:
-            return QVariant(nAnonymizeNefAmount);
+        case AnonymizeNEFAmount:
+            return QVariant(nAnonymizeNEFAmount);
         case Listen:
             return settings.value("fListen");
         default:
@@ -337,10 +337,10 @@ bool OptionsModel::setData(const QModelIndex& index, const QVariant& value, int 
             settings.setValue("nObfuscationRounds", nObfuscationRounds);
             emit obfuscationRoundsChanged(nObfuscationRounds);
             break;
-        case AnonymizeNefAmount:
-            nAnonymizeNefAmount = value.toInt();
-            settings.setValue("nAnonymizeNefAmount", nAnonymizeNefAmount);
-            emit anonymizeNefAmountChanged(nAnonymizeNefAmount);
+        case AnonymizeNEFAmount:
+            nAnonymizeNEFAmount = value.toInt();
+            settings.setValue("nAnonymizeNEFAmount", nAnonymizeNEFAmount);
+            emit anonymizeNEFAmountChanged(nAnonymizeNEFAmount);
             break;
         case CoinControlFeatures:
             fCoinControlFeatures = value.toBool();

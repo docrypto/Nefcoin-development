@@ -299,7 +299,7 @@ static const CRPCCommand vRPCCommands[] =
         {"hidden", "reconsiderblock", &reconsiderblock, true, true, false},
         {"hidden", "setmocktime", &setmocktime, true, false, false},
 
-        /* Nef features */
+        /* NEF features */
         {"nef", "masternode", &masternode, true, true, false},
         {"nef", "masternodelist", &masternodelist, true, true, false},
         {"nef", "mnbudget", &mnbudget, true, true, false},

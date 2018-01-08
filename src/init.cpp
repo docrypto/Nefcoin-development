@@ -1579,9 +1579,9 @@ LogPrintf("genesis block loaded %s\n", block.ToString());
         nObfuscationRounds = 99999;
     }
 
-    nAnonymizeNefAmount = GetArg("-anonymizenefamount", 0);
-    if (nAnonymizeNefAmount > 999999) nAnonymizeNefAmount = 999999;
-    if (nAnonymizeNefAmount < 2) nAnonymizeNefAmount = 2;
+    nAnonymizeNEFAmount = GetArg("-anonymizenefamount", 0);
+    if (nAnonymizeNEFAmount > 999999) nAnonymizeNEFAmount = 999999;
+    if (nAnonymizeNEFAmount < 2) nAnonymizeNEFAmount = 2;
 
     fEnableSwiftTX = GetBoolArg("-enableswifttx", fEnableSwiftTX);
     nSwiftTXDepth = GetArg("-swifttxdepth", nSwiftTXDepth);
@@ -1596,7 +1596,7 @@ LogPrintf("genesis block loaded %s\n", block.ToString());
     LogPrintf("fLiteMode %d\n", fLiteMode);
     LogPrintf("nSwiftTXDepth %d\n", nSwiftTXDepth);
     LogPrintf("Obfuscation rounds %d\n", nObfuscationRounds);
-    LogPrintf("Anonymize NEF Amount %d\n", nAnonymizeNefAmount);
+    LogPrintf("Anonymize NEF Amount %d\n", nAnonymizeNEFAmount);
     LogPrintf("Budget Mode %s\n", strBudgetMode.c_str());
 
     /* Denominations

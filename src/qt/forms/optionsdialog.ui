@@ -182,7 +182,7 @@
           </widget>
          </item>
          <item>
-          <widget class="QSpinBox" name="anonymizeNef">
+          <widget class="QSpinBox" name="anonymizeNEF">
            <property name="minimum">
             <number>100</number>
            </property>

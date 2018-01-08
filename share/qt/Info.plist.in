@@ -17,7 +17,7 @@
   <string>APPL</string>
 
   <key>CFBundleGetInfoString</key>
-  <string>@CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@, Copyright © 2009-@COPYRIGHT_YEAR@ The Bitcoin Core developers, 2014-@COPYRIGHT_YEAR@ The Dash Core developers, 2015-@COPYRIGHT_YEAR@ The Nef Core developers</string>
+  <string>@CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@, Copyright © 2009-@COPYRIGHT_YEAR@ The Bitcoin Core developers, 2014-@COPYRIGHT_YEAR@ The Dash Core developers, 2015-@COPYRIGHT_YEAR@ The NEF Core developers</string>
 
   <key>CFBundleShortVersionString</key>
   <string>@CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@</string>
@@ -32,7 +32,7 @@
   <string>NEF-Qt</string>
 
   <key>CFBundleIdentifier</key>
-  <string>io.nef.Nef-Qt</string>
+  <string>io.nef.NEF-Qt</string>
 
   <key>CFBundleURLTypes</key>
   <array>
@@ -40,7 +40,7 @@
       <key>CFBundleTypeRole</key>
       <string>Editor</string>
       <key>CFBundleURLName</key>
-      <string>io.nef.NefPayment</string>
+      <string>io.nef.NEFPayment</string>
       <key>CFBundleURLSchemes</key>
       <array>
         <string>nef</string>
@@ -54,7 +54,7 @@
       <key>UTTypeIdentifier</key>
       <string>io.nef.paymentrequest</string>
       <key>UTTypeDescription</key>
-      <string>Nef payment request</string>
+      <string>NEF payment request</string>
       <key>UTTypeConformsTo</key>
       <array>
         <string>public.data</string>

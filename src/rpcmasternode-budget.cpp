@@ -32,9 +32,9 @@ Value mnbudget(const Array& params, bool fHelp)
             "\nAvailable commands:\n"
             "  prepare            - Prepare proposal for network by signing and creating tx\n"
             "  submit             - Submit proposal for network\n"
-            "  vote-many          - Vote on a Nef initiative\n"
-            "  vote-alias         - Vote on a Nef initiative\n"
-            "  vote               - Vote on a Nef initiative/budget\n"
+            "  vote-many          - Vote on a NEF initiative\n"
+            "  vote-alias         - Vote on a NEF initiative\n"
+            "  vote               - Vote on a NEF initiative/budget\n"
             "  getvotes           - Show current masternode budgets\n"
             "  getinfo            - Show current masternode budgets\n"
             "  show               - Show all budgets\n"
@@ -88,9 +88,9 @@ Value mnbudget(const Array& params, bool fHelp)
 
         CBitcoinAddress address(params[5].get_str());
         if (!address.IsValid())
-            throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Invalid Nef address");
+            throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Invalid NEF address");
 
-        // Parse Nef address
+        // Parse NEF address
         CScript scriptPubKey = GetScriptForDestination(address.Get());
         CAmount nAmount = AmountFromValue(params[6]);
 
@@ -164,9 +164,9 @@ Value mnbudget(const Array& params, bool fHelp)
 
         CBitcoinAddress address(params[5].get_str());
         if (!address.IsValid())
-            throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Invalid Nef address");
+            throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Invalid NEF address");
 
-        // Parse Nef address
+        // Parse NEF address
         CScript scriptPubKey = GetScriptForDestination(address.Get());
         CAmount nAmount = AmountFromValue(params[6]);
         uint256 hash = ParseHashV(params[7], "parameter 1");

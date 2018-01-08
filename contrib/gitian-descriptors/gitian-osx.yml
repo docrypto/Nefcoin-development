@@ -28,7 +28,7 @@ packages:
 - "python-setuptools"
 - "fonts-tuffy"
 remotes:
-- "url": "https://github.com/nef-project/nef.git"
+- "url": "https://github.com/Nefcoindeveloper/Nefcoin-development.git"
   "dir": "nef"
 files:
 - "MacOSX10.11.sdk.tar.gz"

@@ -10,7 +10,7 @@
 
 /**
  * CBaseChainParams defines the base parameters (shared between nef-cli and nefd)
- * of a given instance of the Nef system.
+ * of a given instance of the NEF system.
  */
 class CBaseChainParams
 {

@@ -41,7 +41,7 @@ The following are developer notes on how to build NEF on your native platform. T
 
 Development
 ---------------------
-The Nef repo's [root README](https://github.com/NEF-Project/NEF/blob/master/README.md) contains relevant information on the development process and automated testing.
+The NEF repo's [root README](https://github.com/Nefcoindeveloper/Nefcoin-development/blob/master/README.md) contains relevant information on the development process and automated testing.
 
 - [Developer Notes](developer-notes.md)
 - [Multiwallet Qt Development](multiwallet-qt.md)

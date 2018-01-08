@@ -14,7 +14,7 @@ empty :=
 space := $(empty) $(empty)
 
 OSX_APP=NEF-Qt.app
-OSX_VOLNAME = $(subst $(space),-,$(PACKAGE_NAME))
+OSX_VOLNAME = NEF-Qt
 OSX_DMG = $(OSX_VOLNAME).dmg
 OSX_BACKGROUND_SVG=background.svg
 OSX_BACKGROUND_IMAGE=background.tiff
