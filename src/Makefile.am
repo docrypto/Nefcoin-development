@@ -81,6 +81,7 @@ BITCOIN_CORE_H = \
   amount.h \
   base58.h \
   bip38.h \
+  bignum.h \
   bloom.h \
   chain.h \
   chainparams.h \
