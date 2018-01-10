@@ -450,11 +450,16 @@ const int SCRYPT_SCRATCHPAD_SIZE = 131072 + 63;
             printf("block.GetHash = %s\n", genesis.GetHash().ToString().c_str());
 
             }
-
-
-
+            
         assert(hashGenesisBlock == uint256("0x00bb572d93968270097e68e61182b5970e422fe5f5c93d1cc2d86882a13e2c3c"));
         //assert(genesis.hashMerkleRoot == uint256("0x1b2ef6e2f28be914103a277377ae7729dcd125dfeb8bf97bd5964ba72b6dc39b"));
+
+        vSeeds.push_back(CDNSSeedData("107.191.61.234", "107.191.61.234")); 
+        vSeeds.push_back(CDNSSeedData("181.49.94.106", "181.49.94.106")); 
+        vSeeds.push_back(CDNSSeedData("107.173.176.157", "107.173.176.157")); 
+        vSeeds.push_back(CDNSSeedData("45.67.233.25", "45.67.233.25")); 
+        vSeeds.push_back(CDNSSeedData("107.173.171.154", "107.173.171.154")); 
+        vSeeds.push_back(CDNSSeedData("172.86.121.106", "172.86.121.106")); 
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 53);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 13);
